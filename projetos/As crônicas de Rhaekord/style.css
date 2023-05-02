@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+*{
+    font-family: 'Uncial Antiqua', 'Times New Roman', Times, serif;
+}
+
+:root{
+    --GG: #03070D;
+    --G: #262840;
+    --M: #2E3559;
+    --P: #956DA6;
+    --PP: #D97EA8;
+
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+} 
+
+header{
+    background-color: var(--GG);
+    text-align: center;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+}
+
+a.navlink{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    background-color: var(--M);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+a.navlink:hover{
+    background-color: var(--PP);
+    color: black;
+}
+
+main{
+    max-width: 950px;
+    margin: auto;
+    text-align: justify;
+    background-color: var(--M);
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    text-align: left;
+    background-color: var(--P);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+aside{
+    display: block;
+    text-align: center;
+}
+
+img{
+    width: 85%;
+    margin-bottom: 35px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
