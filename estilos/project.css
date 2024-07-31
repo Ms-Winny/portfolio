@@ -1,5 +1,6 @@
 .projetos {
-    padding: 5% 10%;
+    padding: 0% 10%;
+    padding-bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,24 +9,26 @@
 .projetos__sites {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
-    margin-top: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .apresentacao__conteudo__sites {
     border: 3px solid var(--cor-terciaria);
     border-radius: 8px;
+    min-width: 350px;
+    min-height: 150px;
+    max-width: 450px;
+    max-height: 250px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .apresentacao__conteudo__sites:hover {
     filter: sepia(50%);
-    width: 101%;
 }
 
-@media (max-width: 1200px) {
-    .projetos__sites {
-        flex-direction: column;
-    }
-
+#projetos-design{
+    margin-bottom: 40px;  
 }
